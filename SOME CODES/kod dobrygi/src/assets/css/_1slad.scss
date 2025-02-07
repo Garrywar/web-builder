@@ -1,0 +1,49 @@
+.banner {
+    max-width: 600px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 26px; 
+    margin-bottom: 30px; 
+}
+
+.banner h1, .banner h2, .banner p, .banner a {
+    text-align: center;
+}
+
+.banner h1 {
+    color: #007BFF;
+    font-size: 28px; 
+    margin-bottom: 10px;
+    font-family: "Work Sans";
+}
+
+.banner h2 {
+    color: #1c059c;
+    font-size: 36px; 
+    margin-bottom: 20px;
+    font-family: "Yeseva One";
+}
+
+.banner p {
+    color: #666;
+    font-size: 18px; 
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.banner a {
+    color: #007BFF;
+    font-size: 20px; 
+    text-decoration: none;
+    display: block; 
+    margin: 0 auto; 
+}
+.banner-image {
+    width: 992px;
+    height: 250px;
+    display: block;
+    margin: 80px auto 0; 
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
