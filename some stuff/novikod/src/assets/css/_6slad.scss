@@ -1,0 +1,74 @@
+.news-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.news-card {
+    display: flex;
+    width: 45%;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: #fff;
+    text-align: left;
+}
+
+.news-card img {
+    width: 30%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.description {
+    flex: 1;
+}
+
+.news-card .date-author {
+    color: #159EEC;
+    font-size: 17px;
+    margin: 10px 0;
+}
+
+.news-card .title {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin: 10px 0;
+}
+
+.news-card .icons {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.news-card .icons span {
+    align-items: center;
+}
+
+.news-card .icons span img {
+    margin-right: 5px;
+}
+
+.basr {
+    text-align: center;
+    margin: 100px 0;
+}
+
+h1 {
+    color:#159EEC;
+    margin: 0;
+    font-size: 60px;
+    font-family: "Yeseva One";
+}
+
+h2 {
+    color:#1F2B6C;
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Work Sans';
+}

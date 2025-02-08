@@ -1,0 +1,73 @@
+.card-container {
+    display: flex;
+    gap: 40px; /* Увеличенный отступ между карточками */
+    justify-content: center; /* Центрирование карточек */
+    padding: 56px;
+}
+
+.card {
+    background-color: #BFD2F8;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    width: 600px; /* Увеличенный размер карточек */
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h2 {
+    margin: 15px 0 5px;
+    font-size: 22px; /* Увеличенный размер шрифта заголовка */
+    color: #333;
+}
+
+.card p {
+    margin: 0 0 15px;
+    color: #1F2B6C;
+    font-size: 28px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.social-icons a img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background-color: #1F2B6C;
+    color: #BFD2F8;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 0px 0px 14px 14px ;
+    cursor: pointer;
+    width: 414px;
+    height: 60px;
+    font-size: 23px;
+}
+h1 {
+    color: #1F2B6C ;
+    margin: 0;
+    font-size: 60px;
+    font-family: "Yeseva One";
+}
+
+h3 {
+    color: #159EEC;
+    margin: 0;
+    font-size: 36px;
+    font-family: 'Work Sans';
+}
+.hed{
+    text-align: center;
+    margin: 20px 0;
+}

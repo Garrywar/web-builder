@@ -1,0 +1,87 @@
+h1{
+    font-family: "Work sans";
+    font-weight: 400;
+}
+.doc{
+    background-image: url(../img/Frame\ 1.png), url(../img/Physician_Trends_2021_Merritt_Hawkins\ 1.png);
+    height: 550px;
+    padding: 167px 190px;
+    &__h2{
+        font-size: 50px;
+        color:#1F2B6C ;
+        font-family: 'Yeseva One';
+        margin-top: 8px;
+        margin-bottom: 32px;
+        width: 520px;
+    }
+    &__h5{
+        font-size: 25px;
+        color: #159EEC;
+        font-family: "Work Sans";
+
+    }
+}
+.knopka{
+    background-color: #BFD2F8;
+    border-radius: 50px;
+    width:180px ;
+    height:54px ;
+    border: none;
+    color: #1F2B6C;
+    font-size: 19px;
+    font-family: "Work Sans";
+    font-weight: 500;
+}
+.awd{
+    display: flex;
+    justify-content: center;
+    gap: 67px;
+    font-size: 18px;
+    position: relative;
+    top: -50px;
+}
+.aws{
+    background-color: #1F2B6C;
+    width: 332px;
+    height: 108px;
+    border-radius: 6px;
+    color: #FCFEFE ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Work Sans';
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+.seo{
+    background-color: #BFD2F8;
+    width: 332px;
+    height: 108px;
+    border-radius: 6px;
+    color: #1F2B6C ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Work Sans';
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}
+.swo{
+    background-color: #159EEC;
+    width: 332px;
+    height: 108px;
+    border-radius: 6px;
+    color: #FCFEFE ;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: 'Work Sans';
+    img{
+        width: 50px;
+        height: 50px;
+    }
+}

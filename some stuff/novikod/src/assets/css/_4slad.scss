@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    width: 100%;
+    text-align: left; /* Выравнивание текста по левой стороне */
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    opacity: 0.5; /* Полупрозрачность изображения */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 6%; /* Положение текста в левой части */
+    transform: translate(0, -50%);
+    font-size: 20px;
+}
+.tex{
+    color: #159EEC;
+}
+.tey{
+    color: black;
+}
+.tab{
+    width: 500px;
+    height: 316px;
+    position: absolute;
+    top: -125%;
+    left: 132%; /* Положение текста в левой части */
+    border: #f7f7fa;
+    border-radius: 7px;
+    background-color: #1F2B6C;
+    margin: 0 auto;
+    border: 1px  #fff;
+}
+.label{
+    margin: 10px 0 5px;
+    color: #1F2B6C;
+    margin: 244px;
+    border: #fff;
+    
+    
+}
+input, select, textarea {
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px #fff;
+    background-color: #1F2B6C;
+}
+.tad{
+    width: 500px;
+    height: 48px;
+    border-radius: 5px;
+    border: none;
+    color: #1F2B6C;
+    background-color: #BFD2F8;
+    font-size: 17px;
+}
