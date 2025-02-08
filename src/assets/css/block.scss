@@ -1,0 +1,631 @@
+.p1{
+    &__main{
+        background-image: url(../img/doctor2.png), url(../img/cryg.png);
+        height: 520px;
+        padding-left: 150px;
+        display: flex;
+        align-items: center;
+    }
+    &__text{
+        &__top{
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 18px;
+            text-transform: uppercase;
+            color:$secondary;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        &__bottom{
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 48px;
+            margin-bottom: 32px;
+        }
+        &__but{
+            font-family: 'Work sans';
+            font-weight: 500;
+            font-size: 16px;
+            color: $primary;
+            border-radius: 50px;
+            background-color:$accent ;
+            width:170px;
+            height:  45px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 121px;
+        }
+    }
+    &__book{
+        position: relative;
+        top: -50px;
+        display: flex;
+        justify-content: center;
+        gap: 21px;
+        font-family: 'Work sans';
+        font-weight: 500;
+        font-size: 16px;
+        margin-bottom: 32px;
+        img{
+            width: 50px;
+        }
+        &__1{
+            width: 316px;
+            height: 100px;
+            background-color: $primary;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im1{
+                height: 50px;
+            }
+        }
+        &__2{
+            width: 316px;
+            height: 100px;
+            background-color: $accent;
+            color: $primary;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im2{
+                height:42px ;
+            }
+        }
+        &__3{
+            width: 316px;
+            height: 100px;
+            background-color: $secondary;
+            color: $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 21px;
+            .im3{
+                height: 36px;
+            }
+        }
+
+    }
+    &__text1{
+        margin: 0 auto;
+        width: 700px;
+        h3{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 18px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 15px;
+        }
+        .p2{
+            height: 86px;
+            display: block;
+            text-align: center;
+            font-family: 'Work sans';
+            font-weight: 400;
+            font-size: 18px;
+            color: $black;
+            margin-bottom: 32px;
+        }
+        &__lm{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            &__tx{
+            font-family: 'Work sans';
+            font-weight: 400;
+            font-size: 20px;
+            color: $secondary;
+            }
+        }
+    }
+
+}
+
+
+
+.p2{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-left: 187px; 
+    padding-right: 187px;
+    &__tx1{
+        display: flex;
+        flex-direction: column;
+        h3{
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    &__service{
+        width: 992px;
+        display: flex;
+        &__spisok{
+        display: flex;
+        flex-direction: column;
+        width: 157px;
+        border: 0.5px solid $accent;
+        border-radius: 5px;
+        margin-right: 20px;
+            &__all{
+                display: flex;
+                height: 50px;
+                background-color: $primary;
+                color: $accent;
+                align-items: center;
+                justify-content: center;
+                font-family: 'Work sans';
+                font-weight: 400;
+                font-size: 13px;
+            }
+            &__all:hover{
+                background-color: $secondary;
+                transition: 0.5s;
+            }
+            &__1{
+                color: $black;
+                font-family: 'Work sans';
+                font-weight: 400;
+                font-size: 15px;
+                img{
+                    width: 32px;
+                    height: 32px;
+                }
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                height: 108px;
+                gap: 8px;
+                .m{
+                    height: 28px;
+                }
+                .im{
+                    height: 40px;
+                }
+            }
+            &__1:hover{
+                background-color: $primary;
+                transition: 0.7s;
+                color: $white;
+            }
+        }
+        &__text{
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            height: 480px;
+            width: 470px;
+            color: $black;
+            font-family: 'Work sans';
+            h4{
+                display: flex;
+                margin:24px 0;
+                font-weight: 500;
+                font-size: 27px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 16px;
+            }
+            .f{
+                img{
+                    height: 16px;
+                    width: 16px;
+                }
+                display: flex;
+                width: 500px;
+                height: 160px;
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap: 16px;
+                .str{
+                    display: flex;
+                    height: 30px;
+                    span{
+                        display: flex;
+                        font-weight: 400;
+                        font-size: 20px;
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.p3{
+    &__tx1{
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    table{
+        margin: 0 auto;
+        border-collapse: collapse;
+        .tab{
+            width: 248px;
+            height: 172px;
+            border: 1px solid #c4c4c463;
+            color: $black;
+            .df{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-family: 'Work sans';
+                font-weight: 400;
+                font-size: 16px;
+                gap: 8px;
+              img{
+                width: 50px;
+                height: 44px;
+                }  
+            }
+        } 
+        .tab:hover{
+            transition: 0.5s;
+            background-color:$primary ;
+            color: $white;
+        }   
+    }    
+}
+
+
+.p4{
+    background-image: url(../img/whiteneger.png), url(../img/neger.png);
+ 
+    &__inside{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 187px;
+        height: 600px ;
+        &__text{
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            h2{
+                font-family: "Yeseva One";
+                font-weight: 500;
+                font-size: 32px;
+                color: $secondary;
+            } 
+            span{
+                width: 450px;
+                height: 110px;
+                font-family: "Work sans";
+                font-weight: 400;
+                font-size: 16px;
+                color: $black;
+            }
+        }
+        form{
+            display: flex;
+            flex-wrap: wrap;
+            width: 481px;
+            height: 445px;
+            font-family: 'Work sans';
+            font-size: 16px;
+            font-weight: 200;
+            font-size: 0;
+            .form{
+                display: flex;
+                flex-wrap: wrap;
+                width: 495px;
+               input, select{
+                display: flex;
+                flex-wrap: wrap;
+                width: 245px;
+                height: 50px;
+                border: 1px solid $white;
+                color: $white;
+                background-color: $primary;
+                padding-left: 10px;
+                }
+                input:hover{
+                    transition: 0.5s;
+                    background-color: $accent;
+                    color: $black;
+                }
+                select:hover{
+                    transition: 0.5s;
+                    background-color: $accent;
+                    color: $black;
+                }
+            }
+            textarea{
+                font-family: 'Work sans';
+                font-size: 10px;
+                font-weight: 400;
+                color: $white;
+                background-color: $primary;
+                width: 491px;
+                height: 190px;
+                padding-left: 10px;
+                padding-top: 10px;
+            }
+            textarea:hover{
+                transition: 0.5s;
+                background-color: $accent;
+                color: $black;
+            }
+            button{
+                width: 491px;
+                height: 50px;
+                background-color: $accent;
+                text-transform: uppercase;
+                color: $primary;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: none;
+            }
+        }
+    }
+}
+
+
+.p5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__tx{
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    &__anketa{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 992px;
+        height: 650px;
+        gap: 20px;
+        .doctor{
+            width: 317px;
+            height: 538px;
+            font-size: 0;
+            img{
+                width: 317px;
+                height: 350px;
+            }
+            &__text{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                background-color: $accent;
+                p{
+                    display: flex;
+                    color: $primary;
+                    font-family: "Work sans";
+                    font-size: 16px;
+                    margin-top: 24px;
+                    margin-bottom: 8px;
+                }
+                h4{
+                    display: flex;
+                    text-transform: uppercase;
+                    letter-spacing: 3px;
+                    font-family: "Work sans";
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: $primary;
+                    margin-bottom: 16px;
+                }
+                &__img{
+                    display: flex;
+                    gap: 20px;
+                    margin-bottom: 24px;
+                    img{
+                        height: 24px;
+                        width: 24px;
+                    }
+                }
+            }
+            .view{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 317px;
+                height: 46px;
+                color: $white;
+                background-color: $primary;
+                font-family: "Work sans";
+                p{
+                    font-size: 16px;
+                }
+            }
+            .view:hover{
+                transition: 0.5s;
+                background-color: $secondary;
+            }
+        }
+        &__tochki{
+            width: 74px;
+            height: 18px;
+            margin-top: 16px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+            img{
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+    &__tx1{
+        h3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Work sans';
+            font-weight: 700;
+            font-size: 20px;
+            color: $secondary;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Yeseva One';
+            font-weight: 400;
+            font-size: 38px;
+            color: $primary;
+            margin-bottom: 64px;
+        }
+    }
+    &__anketa2{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 992px;
+        height: 328px;
+        gap: 20px;
+        &__like{
+            display: flex;
+            height: 154px;
+            width: 486px;
+            img{
+                height: 154px;
+                width: 160px;
+                margin-right: 20px;
+            }
+            &__text{
+                h5{
+                    color: $secondary;
+                    font-family: "Work sans";
+                    font-size: 14px;
+                    margin-bottom: 8px;
+                }
+                .ap{
+                    color:$black;
+                    font-family: "Work sans";
+                    font-size: 18px;
+                }
+                .reaction{
+                    display: flex;
+                    color: $black;
+                    font-family: "Work sans";
+                    font-size: 14px;
+                    margin-top: 50px;
+                    .glas{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        gap:-15px;
+                        img{
+                        width: 16px;
+                        height: 10px;
+                        }
+                    }
+                    .likee{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        margin-left: 15px;
+                        img{
+                            width: 16px;
+                            height: 14px;
+                        }
+                        
+                    }
+                }
+            }
+        }    
+        .tochki1{
+            width: 74px;
+            height: 18px;
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-left: -550px;
+            img{
+                height: 18px;
+                width: 18px;
+            }
+        }
+    }
+
+}
