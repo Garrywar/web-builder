@@ -16,7 +16,6 @@
   font-size: 32px;
 }
 
-// logo
 .logo__start{
   font-family: "Yeseva One";
   font-weight: 400;
@@ -58,7 +57,6 @@
   }
 }
 
-// header2
 
 .header2 {
   background-color: $primary;
@@ -95,12 +93,10 @@
   }
 }
 
-// ourservices and blackguy
 
 .services {
   height: 550px;
-  background-color: $grayish;
-  background-image: url(../img/blackguy.png), url(../img/spheres.png), url(../img/servicebg.png);
+  background-color: $secondary;
   background-size: cover;
   display: flex;
   padding: 0 186px;
@@ -217,241 +213,3 @@
   }
 }
 
-// me when i am in bs competition and my opponent is this
-.believe{
-  padding: 64px;
-  font-family: "Work sans";
-  &_cont{
-    margin: 64px auto 0 auto;
-    width: 992px;
-    height: 484px;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    &_grid{
-      display: grid;
-      border: 1px solid $primary;
-      border-radius: 5px;
-      grid-template: repeat(4, 1fr) 40px/157px;
-      &_item{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 8px;
-        svg path {
-          fill: #159EEC;
-        }
-        &:hover{
-          background-color: #1F2B6C;
-          color: #BFD2F8;
-          svg path {
-            fill: $accent
-          }
-        }
-      }
-    }
-    &_list{
-      font-family: "Work sans";
-      margin: 27px 0;
-      width: 470px;
-      ul {
-        width: 415px;
-        height: 107px;
-        display: grid;
-        grid-template: repeat(3, 1fr) / repeat(2, 1fr);
-        margin: 24px 0 32px 0;
-        li{
-          margin: 4px;
-        }
-      }
-      &_yap{
-        display: flex;
-        flex-direction: column;
-        row-gap: 16px;
-      }
-    }
-    &_img{
-      width: 324px;
-    }
-  }
-}
-
-.caring{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: "Work sans";
-  height: 774px;
-  &_cont{
-    width: 992px;
-    height: 646px;
-    display: flex;
-    flex-direction: column;
-    gap: 64px;
-    &_1{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 8px;
-      &_blue{
-        color: #159EEC;
-        font-size: 18px;
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: 3px;
-      }
-      &_black{
-        font-family: "Yeseva one";
-        font-size: 32px;
-      }
-    }
-    &_2{
-      display: grid;
-      grid-template: repeat(3, 172px) / repeat(4, 248px);
-      &_item{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 5px;
-        svg path{
-          fill: $secondary;
-        }
-        div{
-          color: black;
-        }
-      }
-      &_item:hover{
-        background-color: $primary;
-        svg path{
-          fill: $accent;
-        }
-        div{
-          color: $accent;
-        }
-      }
-    }
-  }
-}
-
-.intouch{
-  height: 491px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap:64px;
-  font-family: "Work sans";
-  &_cont{
-    display: flex;
-    justify-content: space-between;
-    width: 992px;
-    height: 233px;
-    &_item{
-      background-color: $accent;
-      color: $primary;
-      width: 233px;
-      height: 233px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      border-radius: 5px;
-      padding: 23px;
-      gap: 5px;
-      svg path {
-        stroke:$primary;
-      }
-      &_bold{
-        text-transform: uppercase;
-        font-weight: 700;
-      }
-      &:hover{
-        background-color: $primary;
-        color: $accent;
-        svg path {
-          stroke: $accent;
-        }
-      }
-    }
-  }
-}
-
-.footer{
-  font-family: "Work sans";
-  color: $accent;
-  height: 427px;
-  background-color: $primary;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  .logo__start{
-    color: $accent;
-  }
-  .logo__end{
-    color: $accent;
-  }
-  .footer_large{
-    margin-top: 18px;
-    font-size: 18px;
-    width: 241px;
-  }
-  .footer_bold{
-    margin-bottom: 39px;
-    font-weight: 600;
-    font-size: 18px;
-  }
-  .footer_news{
-    width: 272px;
-    height: 50px;
-    background-color: $accent;
-    color: $primary;
-    border-radius: 5px;
-    display: flex;
-    input{
-      background-color: transparent;
-      border: none;
-      padding: 14px 10px;
-    }
-    &_enter{
-      flex-grow: 1;
-    }
-    &_enter::placeholder{
-      font-family: "Work sans";
-      color: $primary;
-    }
-  }
-  &_cont{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 46px;
-    &_1{
-      display: flex;
-      width: 992px;
-      justify-content: space-between;
-      &_item{
-        display: flex;
-        flex-direction: column;
-        &_content{
-          display: flex;
-          flex-direction: column;
-          gap: 7px;
-        }
-      }
-    }
-    &_line{
-      width: 992px;
-      border: 1px solid $accent;
-    }
-    &_2{
-      display: flex;
-      width: 992px;
-      justify-content: space-between;
-      &_right{
-        display: flex;
-        gap: 20px;
-      }
-    }
-  }
-}
